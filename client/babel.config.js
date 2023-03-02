@@ -1,3 +1,5 @@
+console.log('---- imported babel config')
+
 module.exports = {
     plugins: [
       [

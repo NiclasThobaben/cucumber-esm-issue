@@ -1,5 +1,8 @@
 require("@babel/register")({
     extensions: [".ts", ".tsx", ".js", ".jsx"],
+    ignore: [
+        'node_modules/(?!@table-library|dnd-core|react-dnd|@react-dnd|react-dnd-html5-backend)'
+    ]
 })
 
 module.exports = {
