@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "emitDeclarationOnly": true,
+        "target": "ES5",
+        "module": "es2015",
+        "allowJs": true,
+        "jsx": "react-jsx",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "outDir": "dist/types",
+        "strict": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "src/stories/*",
+        "src/test-data/*",
+        "src/**/*.test.*",
+        "src/**/*.stories.*"
+    ]
+}

@@ -1,0 +1,37 @@
+# dependencies
+node_modules
+
+# builds
+coverage
+build
+dist
+.rpt2_cache
+*.tgz
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.idea
+*.iml
+/.project
+.vscode
+
+.scannerwork
+
+src/lang/compiled
+src/lang/generated.json
+
+storybook-static
+
+/values.yaml
+
+/reports
+package.tgz
